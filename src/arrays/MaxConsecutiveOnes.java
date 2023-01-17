@@ -1,5 +1,8 @@
 package arrays;
 
+/**
+ * Leetcode: 485
+ */
 public class MaxConsecutiveOnes {
     public static int solution(int[] arr) {
         int c = 0;

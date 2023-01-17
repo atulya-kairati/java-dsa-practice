@@ -1,5 +1,8 @@
 package arrays;
 
+/**
+ * Leetcode: 136
+ */
 public class SingleNumber {
     public static int solution(int[] arr) {
         int ans = 0;
