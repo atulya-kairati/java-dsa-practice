@@ -56,6 +56,5 @@ class StackWithArrayMain{
         System.out.println(stack.top());
         System.out.println(stack.size());
 
-        System.out.println(stack);
     }
 }

@@ -1,3 +1,4 @@
+package linkedList;
 
 class Node<T>{
     T value;
@@ -41,7 +42,7 @@ public class LinkedList<T> {
     }
 
     public T get(int index){
-        if (index >= size) return null;
+        if (head == null || index >= size) return null;
 
         Node<T> ptr = head;
 
@@ -53,7 +54,7 @@ public class LinkedList<T> {
     }
 
     public T delete(int index){
-        if (index >= size) return null;
+        if (head == null || index >= size) return null;
 
         Node<T> ptr = head, oneBefore = null;
 
@@ -102,7 +103,7 @@ public class LinkedList<T> {
     }
 }
 
-class LinkedListTester{
+class LinkedListMain{
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
         ll.append(2);
@@ -122,7 +123,7 @@ class LinkedListTester{
 
         System.out.println(ll.popFront());
         ll.print();
-        
+
         System.out.println(ll.popFront());
         ll.print();
 
