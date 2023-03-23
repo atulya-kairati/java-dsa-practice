@@ -71,6 +71,7 @@ public class LC2_AddTwoNumbers {
                         new ListNode(4, new ListNode(9))
                 )
         );
+
         System.out.println(solution(l1, l2).val);
     }
 }
